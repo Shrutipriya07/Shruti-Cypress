@@ -23,13 +23,15 @@ describe(`Search Feature Tests - ${Cypress.env('viewportType') === 'desktop' ? '
         .first()
         .should('contain.text', testData.validSearch);
   
+      // cy.get(SearchPage.elements.results.cardTitle)
+      //   .its('length')
+      //   .then(count => {
+      //     if (count > 1) {
+      //       cy.log(`Found ${count} results for ${testData.validSearch}`);
+      //     }
+      //   });
       cy.get(SearchPage.elements.results.cardTitle)
-        .its('length')
-        .then(count => {
-          if (count > 1) {
-            cy.log(`Found ${count} results for ${testData.validSearch}`);
-          }
-        });
+     .should('have.length.gt', 0, 'Should have at least one search result');
     });
   
     it('should close search without entering input', () => {
