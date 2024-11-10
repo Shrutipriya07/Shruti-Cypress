@@ -1,0 +1,7 @@
+{
+  "validSearch": "HSBC",
+  "invalidSearch": "invalid123",
+  "messages": {
+    "nothingFound": "Nothing Found"
+  }
+}
