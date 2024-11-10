@@ -1,5 +1,5 @@
 # Cypress search feature Project
-This project contains Cypress tests to validate the search feature across desktop and mobile views. It includes scripts for running tests in both interactive and CI modes.
+This project contains Cypress tests to validate the search feature across desktop and mobile views.
 
 ## Running the Tests
 
@@ -8,7 +8,6 @@ To run the tests in this project, use the following npm commands. Tests can be r
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (16.x or later) and npm installed.
-- Cypress installed as a development dependency.
 
 ## Setup Instructions
 
@@ -21,7 +20,6 @@ To run the tests in this project, use the following npm commands. Tests can be r
    npm install
 ### Interactive Mode (UI)
 
-To open the Cypress Test Runner and observe tests as they execute:
 
 - **Desktop Viewport**:
    ```bash
