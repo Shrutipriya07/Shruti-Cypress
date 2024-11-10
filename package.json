@@ -1,7 +1,8 @@
 {
-  "name": "cypress-example",
+  "name": "cypress-search-feature",
   "version": "1.0.0",
-  "main": "index.js",
+   "author": "shruti",
+  "description": "This project contains Cypress tests to validate the search feature across desktop and mobile views",
   "scripts": {
     "cypress-desktop:ui": "npx cypress open --env viewportType=desktop",
     "cypress-mobile:ui": "npx cypress open --env viewportType=mobile",
